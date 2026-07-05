@@ -83,3 +83,7 @@ Assume the implementer is a Claude Code session that has only this ticket plus t
 
 - Concise. No filler in tickets.
 - Match the register and terminology of existing stories in the project.
+
+## Input sources
+- If the rough spec is a Jira ticket key/URL, read the ticket (and its comments)
+  as the input. Confirm before updating or creating any ticket.
