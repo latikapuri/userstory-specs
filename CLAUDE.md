@@ -44,15 +44,19 @@ code-aligned.
 
 ## User story format
 
+### Business context (before the user story)
+A brief context note (2–3 lines max) placed **before 1.0**, outside the user story body:
+why the change is being made, customer/project driver. It is input for drafting —
+never repeat it inside 1.1/1.2/1.3.
+
 ### 1.0 User Story Title
 As a <role>, I want <capability>, so that <outcome>.
 
 ### 1.1 Conversation
 Detailed point-wise functional specs. This is where ALL the functional detail lives:
 - Numbered points (1, 2, 3 …) with nested sub-points where needed
-- Do NOT include business context/background inside the story — context is input for
-  drafting, not part of the spec. If worth recording, place a brief context note
-  outside/after the user story body, not in 1.1
+- Do NOT include business context/background inside 1.1 — it lives in the context
+  note before 1.0
 - Specify exact behaviour: field names, values to set, conditions, timings
   (e.g. "If message is for applicant, set to 'False'; if for payor, set to 'True'")
 - Use tables for structured data — e.g. columns: # / Data Field / Event-Message /
