@@ -50,7 +50,9 @@ As a <role>, I want <capability>, so that <outcome>.
 ### 1.1 Conversation
 Detailed point-wise functional specs. This is where ALL the functional detail lives:
 - Numbered points (1, 2, 3 …) with nested sub-points where needed
-- Start with the business context/need (why the change is being made)
+- Do NOT include business context/background inside the story — context is input for
+  drafting, not part of the spec. If worth recording, place a brief context note
+  outside/after the user story body, not in 1.1
 - Specify exact behaviour: field names, values to set, conditions, timings
   (e.g. "If message is for applicant, set to 'False'; if for payor, set to 'True'")
 - Use tables for structured data — e.g. columns: # / Data Field / Event-Message /
