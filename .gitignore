@@ -1,0 +1,14 @@
+# Claude Code — personal/local settings (do not share)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Local scratch / drafts not meant for the repo
+drafts/
+*.local.md
