@@ -76,8 +76,8 @@ Assume the implementer is a Claude Code session that has only this ticket plus t
 
 ## Jira context
 
-- Project key: <PROJECT_KEY>
-- Confluence space: <SPACE_KEY>
+- Project key: KWA
+- Confluence space: KSD
 
 ## Tone and format rules
 
